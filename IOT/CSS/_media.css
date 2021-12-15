@@ -1,0 +1,17 @@
+@media (max-width:555px) {
+    .auth_girl{
+        display: none;
+        position: hidden;
+        margin: 0;
+    }
+
+    .authorize_window{
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .authorize_window_info{
+        margin: 0;
+        display: none;
+    }
+    
+}

@@ -1,0 +1,329 @@
+@import url(_reset.css);
+/** СБРОС НАСТРОЕК БРАУЗЕРА ПО УМОЛЧАНИЮ **/
+
+@import url(../Fonts/fonts.css);
+/** Шрифты **/
+
+:root {
+    --color1: #8c74bc;
+    --color2: #fb6484;
+    --color3: #36364e;
+    --color4: #6D5F93;
+    --color2alpha: rgba(54, 54, 78, 0.88);
+}
+
+body {
+    background-color: var(--color1);
+    font-family: 'Poppins';
+    overflow: hidden;
+}
+
+.centered_block {
+    margin: 0 auto 0 auto;
+}
+
+/* Authorize Window */
+
+.authorize_window {
+    margin: 20vh auto 0 auto;
+    height: 460px;
+    padding-top: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20vh auto 0 auto;
+    background-color: var(--color2alpha);
+    max-width: 668px;
+}
+
+.authorize_window_info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.authorize_window_title {
+    font-weight: 600;
+    font-size: 48px;
+    color: #fff;
+    line-height: 72px;
+    display: block;
+    margin-bottom: 18px;
+}
+
+.auth_girl {
+    transform: translate(17px, 40px);
+}
+
+/* Authorize Form */
+
+.fm_authorize {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+}
+
+.fm_authorize input {
+    width: 340px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    color: var(--color4);
+    font-size: 20px;
+    padding: 0px 0px 0px 22px;
+    margin-bottom: 25px;
+}
+
+.fm_authorize input::-webkit-input-placeholder {
+    color: var(--color4);
+}
+
+.fm_authorize input:focus {
+    outline: none;
+    border: 2px solid var(--color2);
+}
+
+.fm_button {
+    width: 166px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--color2);
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+.fm_button:hover {
+    background-color: #fff;
+    color: var(--color2);
+    border: 2px solid var(--color2);
+}
+
+.fm_inner_text {
+    color: #fff;
+    line-height: 27px;
+}
+
+a.fm_link {
+    color: var(--color2);
+    text-decoration: none;
+}
+
+a.fm_link:hover {
+    text-decoration: underline;
+}
+
+/* Registration */
+
+.reg_girl {
+    transform: translate(-34px, 47px);
+}
+
+.registration_window {
+    background-color: var(--color2alpha);
+    margin: 15vh auto 0 auto;
+    max-width: 668px;
+    height: 520px;
+    border-radius: 10px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.registration_window_info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.registration_window_title {
+    font-weight: 600;
+    font-size: 48px;
+    color: #fff;
+    line-height: 72px;
+    display: block;
+    margin-bottom: 18px;
+}
+
+/* Registration Form */
+
+.fm_registration {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+}
+
+.fm_registration input {
+    max-width: 340px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    color: var(--color4);
+    font-size: 20px;
+    padding: 0px 0px 0px 22px;
+    margin-bottom: 25px;
+}
+
+.fm_registration input::-webkit-input-placeholder {
+    color: var(--color4);
+}
+
+.fm_registration input:focus {
+    outline: none;
+    border: 2px solid var(--color2);
+}
+
+/* Password reset window */
+
+.reset_window {
+    height: 270px;
+    padding-top: 17px;
+    background-color: var(--color2alpha);
+    margin: 20vh auto 0 auto;
+    max-width: 668px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reset_window_info {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.reset_window_title {
+    font-weight: 600;
+    font-size: 48px;
+    color: #fff;
+    line-height: 72px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Password Reset Form */
+
+.fm_reset_button {
+    width: 232px;
+    margin: 0 auto 0 auto;
+}
+
+.fm_inner_text {
+    line-height: 27px;
+    margin-top: 5px;
+}
+
+.fm_reset {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    margin: 0 auto 0 auto;
+}
+
+.fm_reset input {
+    width: 340px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    color: var(--color4);
+    font-size: 20px;
+    margin-bottom: 19px;
+}
+
+.fm_reset input::-webkit-input-placeholder {
+    color: var(--color4);
+}
+
+.fm_reset input::-webkit-input-placeholder {
+    color: var(--color4);
+    text-align: center;
+}
+
+.fm_reset input:focus {
+    outline: none;
+    border: 2px solid var(--color2);
+}
+
+/* Profile_window */
+.profile_window {
+    margin: 20vh auto 0 auto;
+    height: 320px;
+    padding-top: 30px;
+    border-radius: 10px;
+    margin: 20vh auto 0 auto;
+    background-color: var(--color2alpha);
+    text-align: center;
+    max-width: 750px;
+}
+
+/* Profile window */
+
+
+
+/* Authorize_window media */
+
+@media (max-width:555px) {
+    .auth_girl {
+        display: none;
+        position: hidden;
+        margin: 0;
+    }
+    .authorize_window {
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .authorize_window_info {
+        margin: 0;
+    }
+    .fm_authorize .fm_button {
+        margin: 0 auto 0 auto;
+    }
+}
+
+@media (max-width:400px) {
+    .fm_authorize {
+        width: 100%;
+        max-width: 340px;
+    }
+    .fm_authorize input {
+        width: 100%;
+        max-width: 340px;
+    }
+}
+
+/* Registrate_window media */
+
+@media (max-width:635px) {
+    .reg_girl {
+        display: none;
+    }
+    .registration_window {
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .registration_window_info {
+        margin: 0;
+    }
+    .fm_registration .fm_button {
+        margin: 0 auto 0 auto;
+    }
+    @media (max-width:400px) {
+        .fm_registration {
+            width: 100%;
+            max-width: 340px;
+        }
+        .fm_registration input {
+            width: 100%;
+            max-width: 340px;
+        }
+    }
+    /* Reset_window media */
+    @media (max-width:490px) {
+        .reset_window_title {
+            margin: 5px 5px 20px 5px;
+            line-height: normal;
+            font-size: 42px;
+        }
+    }
